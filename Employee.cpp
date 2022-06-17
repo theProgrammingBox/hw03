@@ -12,7 +12,7 @@ string Employee::str() const
 		   "\nHire Date: " + hireData.str();
 }
 
-ostream &operator+(ostream &os, const Employee &employee)
+ostream &operator<<(ostream &os, const Employee &employee)
 {
 	cout << employee.str();
 	return os;

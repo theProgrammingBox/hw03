@@ -1,0 +1,399 @@
+Script started on 2022-06-16 22:36:53-07:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="182" LINES="16"]
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++    -c -o Programmer.o Programmer.cpp
+g++ -std=c++14 -Wall -g -c SoftwareArchitect.cpp -o SoftwareArchitect.o
+g++ -std=c++14 -Wall -g -c Employee.cpp -o Employee.o
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+/usr/bin/ld: /tmp/ccXvmjE7.o: in function `main':
+/home/cs1c/Desktop/cs1c/hw03/hw03.cpp:22: undefined reference to `operator<<(std::ostream&, Employee const&)'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: hw03] Error 1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+/usr/bin/ld: /tmp/cc6mdj2e.o: in function `main':
+/home/cs1c/Desktop/cs1c/hw03/hw03.cpp:23: undefined reference to `operator<<(std::ostream&, Employee const&)'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: hw03] Error 1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+terminate called after throwing an instance of 'std::logic_error'
+  what():  basic_string::_M_construct null not valid
+Aborted (core dumped)
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+./]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+/usr/bin/ld: /tmp/ccL1ZHz2.o: in function `main':
+/home/cs1c/Desktop/cs1c/hw03/hw03.cpp:23: undefined reference to `operator<<(std::ostream&, Employee const&)'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: hw03] Error 1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw04[K3
+employee1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+/usr/bin/ld: /tmp/ccXfx7jw.o: in function `main':
+/home/cs1c/Desktop/cs1c/hw03/hw03.cpp:23: undefined reference to `operator<<(std::ostream&, Employee const&)'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: hw03] Error 1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+/usr/bin/ld: /tmp/cc5pxVSs.o: in function `main':
+/home/cs1c/Desktop/cs1c/hw03/hw03.cpp:23: undefined reference to `operator<<(std::ostream&, Employee const&)'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:8: hw03] Error 1
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+employee1
+08/31/2014]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++    -c -o Programmer.o Programmer.cpp
+g++ -std=c++14 -Wall -g -c Employee.cpp -o Employee.o
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+employee1
+08/31/2014]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ /m[Khw03\
+> 
+bash: /hw03: No such file or directory
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+employee1
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+./]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+
+Employee 3:
+Name: James Corden
+ID: 87654
+Phone: 703-703-1234
+Age: 37
+Gen: M
+Job: Talk Show Host
+Salary: $900,000
+Hire Date: 12/25/2014
+
+Employee 4:
+Name: Katie Couric
+ID: 77777
+Phone: 203-555-6789
+Age: 58
+Gen: F
+Job: News reporter
+Salary: $500,500
+Hire Date: 03/01/2005
+
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+./]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw04
+bash: ./hw04: No such file or directory
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+
+Employee 3:
+Name: James Corden
+ID: 87654
+Phone: 703-703-1234
+Age: 37
+Gen: M
+Job: Talk Show Host
+Salary: $900,000
+Hire Date: 12/25/2014
+
+Employee 4:
+Name: Katie Couric
+ID: 77777
+Phone: 203-555-6789
+Age: 58
+Gen: F
+Job: News reporter
+Salary: $500,500
+Hire Date: 03/01/2005
+
+Programmer 1:
+Name: Sam Software
+ID: 54321
+Phone: 819-123-4567
+Age: 21
+Gen: M
+Job: Programmer
+Salary: $223,000
+Hire Date: 12/24/2011
+Department Number: 5432122
+Supervisor Name: Joe Boss
+Percentage Increase: 4.000000
+Knows C++: 1
+Knows Java: 0
+
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++    -c -o Programmer.o Programmer.cpp
+g++ -std=c++14 -Wall -g -c Employee.cpp -o Employee.o
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
+./g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+0]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./03[K[Khw03
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+
+Employee 3:
+Name: James Corden
+ID: 87654
+Phone: 703-703-1234
+Age: 37
+Gen: M
+Job: Talk Show Host
+Salary: $900,000
+Hire Date: 12/25/2014
+
+Employee 4:
+Name: Katie Couric
+ID: 77777
+Phone: 203-555-6789
+Age: 58
+Gen: F
+Job: News reporter
+Salary: $500,500
+Hire Date: 03/01/2005
+
+Programmer 1:
+Name: Sam Software
+ID: 54321
+Phone: 819-123-4567
+Age: 21
+Gen: M
+Job: Programmer
+Salary: $223,000
+Hire Date: 12/24/2011
+Department Number: 5432122
+Supervisor Name: Joe Boss
+Percentage Increase: 4.000000
+Knows C++: Yes
+Knows Java: No
+
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw04[K3
+Employee 1:
+Name: Jimmy Fallon
+ID: 12345
+Phone: 949-555-1234
+Age: 40
+Gen: M
+Job: Comedian
+Salary: $100,000
+Hire Date: 08/31/2014
+
+Employee 2:
+Name: Stephen Colbert
+ID: 12346
+Phone: 310-555-5555
+Age: 51
+Gen: M
+Job: Comedian
+Salary: $70,123
+Hire Date: 05/08/2015
+
+Employee 3:
+Name: James Corden
+ID: 87654
+Phone: 703-703-1234
+Age: 37
+Gen: M
+Job: Talk Show Host
+Salary: $900,000
+Hire Date: 12/25/2014
+
+Employee 4:
+Name: Katie Couric
+ID: 77777
+Phone: 203-555-6789
+Age: 58
+Gen: F
+Job: News reporter
+Salary: $500,500
+Hire Date: 03/01/2005
+
+Programmer 1:
+Name: Sam Software
+ID: 54321
+Phone: 819-123-4567
+Age: 21
+Gen: M
+Job: Programmer
+Salary: $223,000
+Hire Date: 12/24/2011
+Department Number: 5432122
+Supervisor Name: Joe Boss
+Percentage Increase: 4.000000
+Knows C++: Yes
+Knows Java: No
+
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ exit
+exit
+
+Script done on 2022-06-16 22:52:36-07:00 [COMMAND_EXIT_CODE="0"]

@@ -9,7 +9,7 @@ private:
 	string year;
 
 public:
-	Date() : month(0), day(0), year(0000) {}
+	Date() : month("00"), day("00"), year("0000") {}
 	Date(string month, string day, string year)
 		: month(month), day(day), year(year) {}
 	~Date(){};

@@ -6,11 +6,11 @@ string Programmer::str() const
 		   "\nDepartment Number: " + to_string(departmentNumber) +
 		   "\nSupervisor Name: " + supervisorName +
 		   "\nPercentage Increase: " + to_string(percentageIncrease) +
-		   "\nKnows C++: " + to_string(knowsCpp) +
-		   "\nKnows Java: " + to_string(knowsJava);
+		   "\nKnows C++: " + (knowsCpp ? "Yes" : "No") +
+		   "\nKnows Java: " + (knowsJava ? "Yes" : "No");
 }
 
-ostream &operator+(ostream &os, const Programmer &Programmer)
+ostream &operator<<(ostream &os, const Programmer &Programmer)
 {
 	cout << Programmer.str();
 	return os;

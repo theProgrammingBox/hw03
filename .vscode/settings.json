@@ -3,7 +3,8 @@
     "iomanip": "cpp",
     "iosfwd": "cpp",
     "xstring": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "iostream": "cpp"
   },
   "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "makefile.launchConfigurations": [
