@@ -1,13 +1,14 @@
 {
-	"files.associations": {
-		"iomanip": "cpp"
-	},
-	"C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
-	"makefile.launchConfigurations": [
-		{
-			"cwd": "/home/cs1c/Desktop/cs1c/hw03",
-			"binaryPath": "/home/cs1c/Desktop/cs1c/hw03/hw03",
-			"binaryArgs": []
-		}
-	]
+  "files.associations": {
+    "iomanip": "cpp",
+    "iosfwd": "cpp"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/home/cs1c/Desktop/cs1c/hw03",
+      "binaryPath": "/home/cs1c/Desktop/cs1c/hw03/hw03",
+      "binaryArgs": []
+    }
+  ]
 }

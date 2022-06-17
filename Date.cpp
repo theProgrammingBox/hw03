@@ -7,4 +7,10 @@ void Date::printDate() const
 	cout << month << "/" << day << "/" << year << endl;
 }
 
-//test
+ostream &operator<<(ostream &os, const Date &d)
+{
+	os << d.month << "/" << d.day << "/" << d.year << endl;
+	return os;
+}
+
+// changes
