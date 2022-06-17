@@ -6,3 +6,5 @@ void Date::printDate() const
 {
 	cout << month << "/" << day << "/" << year << endl;
 }
+
+//test
