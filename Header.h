@@ -5,5 +5,3 @@
 using namespace std;
 
 const int COL_WIDTH = 20;
-
-// test

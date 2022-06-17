@@ -11,10 +11,9 @@ private:
 	bool knowsJava;
 
 public:
-	Programmer()
-		: departmentNumber(0), supervisorName(""), percentageIncrease(0), knowsCpp(false), knowsJava(false){};
-	Programmer(int departmentNumber, string supervisorName, float percentageIncrease, bool knowsCpp, bool knowsJava)
-		: departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), knowsCpp(knowsCpp), knowsJava(knowsJava){};
+	Programmer() : Employee(), departmentNumber(0), supervisorName(""), percentageIncrease(0), knowsCpp(false), knowsJava(false){};
+	Programmer(string name, int id, string phone, int age, string gen, string job, string salary, Date hireData, int departmentNumber, string supervisorName, float percentageIncrease, bool knowsCpp, bool knowsJava)
+		: Employee(name, id, phone, age, gen, job, salary, hireData), departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), knowsCpp(knowsCpp), knowsJava(knowsJava){};
 	~Programmer() {}
 
 	void setDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }

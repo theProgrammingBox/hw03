@@ -10,9 +10,9 @@ private:
 	int yearsOfExperience;
 
 public:
-	SoftwareArchitect() : departmentNumber(0), supervisorName(""), percentageIncrease(0), yearsOfExperience(0){};
-	SoftwareArchitect(int departmentNumber, string supervisorName, float percentageIncrease, int yearsOfExperience)
-		: departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), yearsOfExperience(yearsOfExperience){};
+	SoftwareArchitect() : Employee(), departmentNumber(0), supervisorName(""), percentageIncrease(0), yearsOfExperience(0){};
+	SoftwareArchitect(string name, int id, string phone, int age, string gen, string job, string salary, Date hireData, int departmentNumber, string supervisorName, float percentageIncrease, int yearsOfExperience)
+		: Employee(name, id, phone, age, gen, job, salary, hireData), departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), yearsOfExperience(yearsOfExperience){};
 	~SoftwareArchitect(){};
 
 	void setDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }
