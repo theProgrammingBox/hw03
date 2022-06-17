@@ -1,0 +1,10 @@
+make all --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cs1c/Desktop/cs1c/hw03'
+g++    -c -o Programmer.o Programmer.cpp
+g++ -std=c++14 -Wall -g -c SoftwareArchitect.cpp -o SoftwareArchitect.o
+g++ -std=c++14 -Wall -g -c Employee.cpp -o Employee.o
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
+g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
+g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+make: Leaving directory '/home/cs1c/Desktop/cs1c/hw03'
+ 

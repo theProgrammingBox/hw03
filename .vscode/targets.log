@@ -1,0 +1,382 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 16 20:46:56 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = xfce
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/cs1c/.Xauthority
+# environment
+GDMSESSION = xfce
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/cs1c/Desktop/cs1c/hw03
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = en_US
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/share/xfce4:/home/cs1c/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 3)
+OBJS = Date.o Employee.o Programmer.o SoftwareArchitect.o
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/cs1c
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+SESSION_MANAGER = local/cs1c-VirtualBox:@/tmp/.ICE-unix/957,unix/cs1c-VirtualBox:/tmp/.ICE-unix/957
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/cs1c
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = xfce
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-uOXx1uHdvUCK/agent.957
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0.0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/cs1c/Desktop/cs1c/hw03
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1099
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/cs1c
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/cs1c/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = cs1c
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+CLUTTER_BACKEND = x11
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 1)
+CC = g++
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9086ab71-7484-46c1-849c-8b66fac2c900.sock
+# environment
+COMPIZ_CONFIG_PROFILE = mint
+# environment
+XDG_SESSION_ID = c1
+# environment
+USER = cs1c
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-449f2ec5-1.68.0-main.sock
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 2)
+FLAGS = -std=c++14 -Wall -g
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 38159
+# variable set hash-table stats:
+# Load=98/1024=10%, Rehash=0, Collisions=8/123=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 747421): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+SoftwareArchitect.o: SoftwareArchitect.h SoftwareArchitect.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 15:33:46.961317257
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 20):
+	$(CC) $(FLAGS) -c SoftwareArchitect.cpp -o SoftwareArchitect.o
+
+# Not a target:
+Header.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:19:40.911472616
+#  File has been updated.
+#  Successfully updated.
+
+all: hw03
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Employee.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:22:28.994372683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+hw03.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:34:13.039882151
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Employee.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:08:25.624441
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:32:59.48792804
+#  File has been updated.
+#  Successfully updated.
+
+Date.o: Date.h Date.cpp Employee.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 15:33:47.673278086
+#  File has been updated.
+ 
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 14):
+	$(CC) $(FLAGS) -c Date.cpp -o Date.o
+
+# Not a target:
+SoftwareArchitect.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:22:28.994372683
+#  File has been updated.
+#  Successfully updated.
+
+hw03: hw03.cpp hw03.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 15:34:18.043606723
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 8):
+	$(CC) $(FLAGS) hw03.cpp -o hw03 $(OBJS)
+
+# Not a target:
+SoftwareArchitect.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:08:25.628443
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+hw03.o: Header.h hw03.cpp Date.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 15:34:17.567632923
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 11):
+	$(CC) $(FLAGS) -c hw03.cpp -o hw03.o
+
+Employee.o: Employee.h Employee.cpp Programmer.o SoftwareArchitect.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-15 15:33:47.337296571
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(CC) $(FLAGS) -c Employee.cpp -o Employee.o
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	rm*.0 hw03 hw03.tar
+
+tar:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	tar cf hw03.tar hw03.scr Makefile hw03.cpp Date.cpp Date.h Employee.cpp Employee.h Programmer.cpp Programmer.h SoftwareArchitect.cpp SoftwareArchitect.h
+
+# Not a target:
+Programmer.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:33:46.617336181
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Date.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:22:28.994372683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Date.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-15 15:08:25.62044
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=0/51=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 298 B / avg = 10 B
+# current buf: size = 8162 B / used = 298 B / count = 29 / avg = 10 B
+
+# strcache performance: lookups = 62 / hit rate = 53%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/62=2%
+# Finished Make data base on Thu Jun 16 20:46:56 2022
+
+ 
