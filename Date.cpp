@@ -1,16 +1,12 @@
-// Date.cpp
-
 #include "Date.h"
 
-void Date::printDate() const
+string Date::str() const
 {
-	cout << month << "/" << day << "/" << year << endl;
+	return month + "/" + day + "/" + year;
 }
 
-ostream &operator<<(ostream &os, const Date &d)
+ostream &operator<<(ostream &os, const Date &date)
 {
-	os << d.month << "/" << d.day << "/" << d.year << endl;
+	os << date.str();
 	return os;
 }
-
-// Language: whaa

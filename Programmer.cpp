@@ -1,30 +1,17 @@
-// Programmer.cpp
-
 #include "Programmer.h"
 
-void Programmer::printProgrammerHeader() const
+string Programmer::str() const
 {
-	cout << left;
-	cout 
-	<< setw(COL_WIDTH) << "Name" 
-	<< setw(COL_WIDTH) << "Department"
-	<< setw(COL_WIDTH) << "Supervisor's Name"
-	<< setw(COL_WIDTH) << "Raise%"
-	<< setw(COL_WIDTH) << "C++ Knowledge"
-	<< setw(COL_WIDTH) << "Java Knowledge\n";
-	cout << right;
+	return Employee::str() +
+		   "\nDepartment Number: " + to_string(departmentNumber) +
+		   "\nSupervisor Name: " + supervisorName +
+		   "\nPercentage Increase: " + to_string(percentageIncrease) +
+		   "\nKnows C++: " + to_string(knowsCpp) +
+		   "\nKnows Java: " + to_string(knowsJava);
 }
 
-void Programmer::printProgrammerData() const
+ostream &operator+(ostream &os, const Programmer &Programmer)
 {
-	cout << left;
-	cout 
-	<< setw(COL_WIDTH) << getName()
-	<< setw(COL_WIDTH) << departmentNumber
-	<< setw(COL_WIDTH) << supervisorName
-	<< setw(COL_WIDTH) << percentageIncrease
-	<< setw(COL_WIDTH) << knowsCpp
-	<< setw(COL_WIDTH) << knowsJava
-	<< endl;
-	cout << right;
+	cout << Programmer.str();
+	return os;
 }

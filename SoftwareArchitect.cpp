@@ -1,28 +1,16 @@
-// SoftwareArchitect.cpp
-
 #include "SoftwareArchitect.h"
 
-void SoftwareArchitect::printSoftwareArchitectHeader() const
+string SoftwareArchitect::str() const
 {
-	cout << left;
-	cout 
-	<< setw(COL_WIDTH) << "Name" 
-	<< setw(COL_WIDTH) << "Department"
-	<< setw(COL_WIDTH) << "Supervisor's Name"
-	<< setw(COL_WIDTH) << "Raise%"
-	<< setw(COL_WIDTH) << "Years of experience\n";
-	cout << right;
+	return Employee::str() +
+		   "\nDepartment Number: " + to_string(departmentNumber) +
+		   "\nSupervisor Name: " + supervisorName +
+		   "\nPercentage Increase: " + to_string(percentageIncrease) +
+		   "\nYears of Experience: " + to_string(yearsOfExperience);
 }
 
-void SoftwareArchitect::printSoftwareArchitectData() const
+ostream &operator<<(ostream &os, const SoftwareArchitect &softwareArchitect)
 {
-	cout << left;
-	cout 
-	<< setw(COL_WIDTH) << getName()
-	<< setw(COL_WIDTH) << departmentNumber
-	<< setw(COL_WIDTH) << supervisorName
-	<< setw(COL_WIDTH) << percentageIncrease
-	<< setw(COL_WIDTH) << yearsOfExperience
-	<< endl;
-	cout << right;
+	cout << softwareArchitect.str();
+	return os;
 }

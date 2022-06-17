@@ -23,5 +23,4 @@ clean:
 	rm*.0 hw03 hw03.tar
 
 tar:
-	tar cf hw03.tar hw03.scr Makefile hw03.cpp Date.cpp Date.h Employee.cpp Employee.h Programmer.cpp Programmer.h SoftwareArchitect.cpp SoftwareArchitect.h
-
+	tar cf hw03.tar hw03.scr Makefile Header.h hw03.cpp Date.cpp Date.h Employee.cpp Employee.h Programmer.cpp Programmer.h SoftwareArchitect.cpp SoftwareArchitect.h
