@@ -13,4 +13,4 @@ ostream &operator<<(ostream &os, const Date &d)
 	return os;
 }
 
-// Language: cpp
+// Language: whaa
