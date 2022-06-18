@@ -1,7 +1,58 @@
-Script started on 2022-06-17 16:32:21-07:00 [TERM="xterm-256color" TTY="/dev/pts/15" COLUMNS="173" LINES="25"]
+Script started on 2022-06-17 17:28:05-07:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="32" LINES="65"]
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ date
+Fri 17 Jun 2022 05:28:14 PM PDT
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ls-[K -l
+total 768
+-rw-rw-r-- 1 cs1c cs1c    838 Jun 17 17:27 Date.cpp
+-rw-rw-r-- 1 cs1c cs1c    491 Jun 17 17:27 Date.h
+-rw-rw-r-- 1 cs1c cs1c  97176 Jun 17 17:04 Date.o
+-rw-rw-r-- 1 cs1c cs1c   1052 Jun 17 17:27 Employee.cpp
+-rw-rw-r-- 1 cs1c cs1c    986 Jun 17 17:27 Employee.h
+-rw-rw-r-- 1 cs1c cs1c 118336 Jun 17 17:03 Employee.o
+-rw-rw-r-- 1 cs1c cs1c    117 Jun 17 16:53 Header.h
+-rwxrwxr-x 1 cs1c cs1c 215920 Jun 17 17:04 [0m[01;32mhw03[0m
+-rw-rw-r-- 1 cs1c cs1c   3726 Jun 17 17:27 hw03.cpp
+-rw-rw-r-- 1 cs1c cs1c 166144 Jun 17 17:04 hw03.o
+-rw-rw-r-- 1 cs1c cs1c      0 Jun 17 17:28 hw03.scr
+-rw-rw-r-- 1 cs1c cs1c    757 Jun 17 17:03 Makefile
+-rw-rw-r-- 1 cs1c cs1c   1134 Jun 17 17:27 Programmer.cpp
+-rw-rw-r-- 1 cs1c cs1c   1293 Jun 17 17:27 Programmer.h
+-rw-rw-r-- 1 cs1c cs1c  19712 Jun 17 17:03 Programmer.o
+-rw-rw-r-- 1 cs1c cs1c   1145 Jun 17 17:27 SoftwareArchitect.cpp
+-rw-rw-r-- 1 cs1c cs1c   1267 Jun 17 17:27 SoftwareArchitect.h
+-rw-rw-r-- 1 cs1c cs1c 116936 Jun 17 17:03 SoftwareArchitect.o
 ]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
+g++    -c -o Programmer.o Programmer.cpp
+g++ -std=c++14 -Wall -g -c SoftwareArchitect.cpp -o SoftwareArchitect.o
+g++ -std=c++14 -Wall -g -c Employee.cpp -o Employee.o
+g++ -std=c++14 -Wall -g -c Date.cpp -o Date.o
 g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
 g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ls - l
+ls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ls -l
+total 768
+-rw-rw-r-- 1 cs1c cs1c    838 Jun 17 17:27 Date.cpp
+-rw-rw-r-- 1 cs1c cs1c    491 Jun 17 17:27 Date.h
+-rw-rw-r-- 1 cs1c cs1c  97184 Jun 17 17:28 Date.o
+-rw-rw-r-- 1 cs1c cs1c   1052 Jun 17 17:27 Employee.cpp
+-rw-rw-r-- 1 cs1c cs1c    986 Jun 17 17:27 Employee.h
+-rw-rw-r-- 1 cs1c cs1c 118336 Jun 17 17:28 Employee.o
+-rw-rw-r-- 1 cs1c cs1c    117 Jun 17 16:53 Header.h
+-rwxrwxr-x 1 cs1c cs1c 215768 Jun 17 17:28 [0m[01;32mhw03[0m
+-rw-rw-r-- 1 cs1c cs1c   3726 Jun 17 17:27 hw03.cpp
+-rw-rw-r-- 1 cs1c cs1c 165728 Jun 17 17:28 hw03.o
+-rw-rw-r-- 1 cs1c cs1c      0 Jun 17 17:28 hw03.scr
+-rw-rw-r-- 1 cs1c cs1c    757 Jun 17 17:03 Makefile
+-rw-rw-r-- 1 cs1c cs1c   1134 Jun 17 17:27 Programmer.cpp
+-rw-rw-r-- 1 cs1c cs1c   1293 Jun 17 17:27 Programmer.h
+-rw-rw-r-- 1 cs1c cs1c  19712 Jun 17 17:28 Programmer.o
+-rw-rw-r-- 1 cs1c cs1c   1145 Jun 17 17:27 SoftwareArchitect.cpp
+-rw-rw-r-- 1 cs1c cs1c   1267 Jun 17 17:27 SoftwareArchitect.h
+-rw-rw-r-- 1 cs1c cs1c 116944 Jun 17 17:28 SoftwareArchitect.o
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./how03
+bash: ./how03: No such file or directory
 ]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
 Employee 1 Before:
 Name: 
@@ -140,543 +191,7 @@ Supervisor Name: Big Boss
 Percentage Increase: 8.000000
 Years of Experience: 11
 
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ [K]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ [K]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ [K]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ .
-/hw03
-Employee 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
+]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ exit
+exit
 
-Employee 1 After:
-Name: Jimmy Fallon
-ID: 12345
-Phone: 949-555-1234
-Age: 40
-Gen: M
-Job: Comedian
-Salary: $100,000
-Hire Date: 08/31/2014
-
-Employee 2:
-Name: Stephen Colbert
-ID: 12346
-Phone: 310-555-5555
-Age: 51
-Gen: M
-Job: Comedian
-Salary: $70,123
-Hire Date: 05/08/2015
-
-Employee 3:
-Name: James Corden
-ID: 87654
-Phone: 703-703-1234
-Age: 37
-Gen: M
-Job: Talk Show Host
-Salary: $900,000
-Hire Date: 12/25/2014
-
-Employee 4:
-Name: Katie Couric
-ID: 77777
-Phone: 203-555-6789
-Age: 58
-Gen: F
-Job: News reporter
-Salary: $500,500
-Hire Date: 03/01/2005
-
-Programmer 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Knows C++: No
-Knows Java: No
-
-Programmer 1 After:
-Name: Sam Software
-ID: 54321
-Phone: 819-123-4567
-Age: 21
-Gen: M
-Job: Programmer
-Salary: $223,000
-Hire Date: 12/24/2011
-Department Number: 5432122
-Supervisor Name: Joe Boss
-Percentage Increase: 4.000000
-Knows C++: Yes
-Knows Java: No
-
-Programmer 2:
-Name: Mary Coder
-ID: 65432
-Phone: 310-555-5555
-Age: 28
-Gen: F
-Job: Programmer
-Salary: $770,123
-Hire Date: 02/08/2010
-Department Number: 6543222
-Supervisor Name: Mary Leader
-Percentage Increase: 7.000000
-Knows C++: Yes
-Knows Java: Yes
-
-Software Architect 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Years of Experience: 0
-
-Software Architect 1 After:
-Name: Alex Arch
-ID: 88888
-Phone: 819-123-4444
-Age: 31
-Gen: M
-Job: Architect
-Salary: $323,000
-Hire Date: 12/24/2009
-Department Number: 5434222
-Supervisor Name: Big Boss
-Percentage Increase: 5.000000
-Years of Experience: 4
-
-Software Architect 2:
-Name: Sally Designer
-ID: 65434
-Phone: 310-555-8888
-Age: 38
-Gen: F
-Job: Architect
-Salary: $870,123
-Hire Date: 02/08/2003
-Department Number: 6543422
-Supervisor Name: Big Boss
-Percentage Increase: 8.000000
-Years of Experience: 11
-
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
-Employee 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-
-Employee 1 After:
-Name: Jimmy Fallon
-ID: 12345
-Phone: 949-555-1234
-Age: 40
-Gen: M
-Job: Comedian
-Salary: $100,000
-Hire Date: 08/31/2014
-
-Employee 2:
-Name: Stephen Colbert
-ID: 12346
-Phone: 310-555-5555
-Age: 51
-Gen: M
-Job: Comedian
-Salary: $70,123
-Hire Date: 05/08/2015
-
-Employee 3:
-Name: James Corden
-ID: 87654
-Phone: 703-703-1234
-Age: 37
-Gen: M
-Job: Talk Show Host
-Salary: $900,000
-Hire Date: 12/25/2014
-
-Employee 4:
-Name: Katie Couric
-ID: 77777
-Phone: 203-555-6789
-Age: 58
-Gen: F
-Job: News reporter
-Salary: $500,500
-Hire Date: 03/01/2005
-
-Programmer 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Knows C++: No
-Knows Java: No
-
-Programmer 1 After:
-Name: Sam Software
-ID: 54321
-Phone: 819-123-4567
-Age: 21
-Gen: M
-Job: Programmer
-Salary: $223,000
-Hire Date: 12/24/2011
-Department Number: 5432122
-Supervisor Name: Joe Boss
-Percentage Increase: 4.000000
-Knows C++: Yes
-Knows Java: No
-
-Programmer 2:
-Name: Mary Coder
-ID: 65432
-Phone: 310-555-5555
-Age: 28
-Gen: F
-Job: Programmer
-Salary: $770,123
-Hire Date: 02/08/2010
-Department Number: 6543222
-Supervisor Name: Mary Leader
-Percentage Increase: 7.000000
-Knows C++: Yes
-Knows Java: Yes
-
-Software Architect 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Years of Experience: 0
-
-Software Architect 1 After:
-Name: Alex Arch
-ID: 88888
-Phone: 819-123-4444
-Age: 31
-Gen: M
-Job: Architect
-Salary: $323,000
-Hire Date: 12/24/2009
-Department Number: 5434222
-Supervisor Name: Big Boss
-Percentage Increase: 5.000000
-Years of Experience: 4
-
-Software Architect 2:
-Name: Sally Designer
-ID: 65434
-Phone: 310-555-8888
-Age: 38
-Gen: F
-Job: Architect
-Salary: $870,123
-Hire Date: 02/08/2003
-Department Number: 6543422
-Supervisor Name: Big Boss
-Percentage Increase: 8.000000
-Years of Experience: 11
-
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
-g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
-g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
-Employee 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-
-Employee 1 After:
-Name: Jimmy Fallon
-ID: 12345
-Phone: 949-555-1234
-Age: 40
-Gen: M
-Job: Comedian
-Salary: $100,000
-Hire Date: 08/31/2014
-
-Employee 2:
-Name: Stephen Colbert
-ID: 12346
-Phone: 310-555-5555
-Age: 51
-Gen: M
-Job: Comedian
-Salary: $70,123
-Hire Date: 05/08/2015
-
-Employee 3:
-Name: James Corden
-ID: 87654
-Phone: 703-703-1234
-Age: 37
-Gen: M
-Job: Talk Show Host
-Salary: $900,000
-Hire Date: 12/25/2014
-
-Employee 4:
-Name: Katie Couric
-ID: 77777
-Phone: 203-555-6789
-Age: 58
-Gen: F
-Job: News reporter
-Salary: $500,500
-Hire Date: 03/01/2005
-
-Programmer 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Knows C++: No
-Knows Java: No
-
-Programmer 1 After:
-Name: Sam Software
-ID: 54321
-Phone: 819-123-4567
-Age: 21
-Gen: M
-Job: Programmer
-Salary: $223,000
-Hire Date: 12/24/2011
-Department Number: 5432122
-Supervisor Name: Joe Boss
-Percentage Increase: 4.000000
-Knows C++: Yes
-Knows Java: No
-
-Programmer 2:
-Name: Mary Coder
-ID: 65432
-Phone: 310-555-5555
-Age: 28
-Gen: F
-Job: Programmer
-Salary: $770,123
-Hire Date: 02/08/2010
-Department Number: 6543222
-Supervisor Name: Mary Leader
-Percentage Increase: 7.000000
-Knows C++: Yes
-Knows Java: Yes
-
-Software Architect 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Years of Experience: 0
-
-Software Architect 1 After:Name: Alex Arch
-ID: 88888
-Phone: 819-123-4444
-Age: 31
-Gen: M
-Job: Architect
-Salary: $323,000
-Hire Date: 12/24/2009
-Department Number: 5434222
-Supervisor Name: Big Boss
-Percentage Increase: 5.000000
-Years of Experience: 4
-
-Software Architect 2:Name: Sally Designer
-ID: 65434
-Phone: 310-555-8888
-Age: 38
-Gen: F
-Job: Architect
-Salary: $870,123
-Hire Date: 02/08/2003
-Department Number: 6543422
-Supervisor Name: Big Boss
-Percentage Increase: 8.000000
-Years of Experience: 11
-
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ make all
-g++ -std=c++14 -Wall -g -c hw03.cpp -o hw03.o
-g++ -std=c++14 -Wall -g hw03.cpp -o hw03 Date.o Employee.o Programmer.o SoftwareArchitect.o
-]0;cs1c@cs1c-VirtualBox: ~/Desktop/cs1c/hw03[01;32mcs1c@cs1c-VirtualBox[00m:[01;34m~/Desktop/cs1c/hw03[00m$ ./hw03
-Employee 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-
-Employee 1 After:
-Name: Jimmy Fallon
-ID: 12345
-Phone: 949-555-1234
-Age: 40
-Gen: M
-Job: Comedian
-Salary: $100,000
-Hire Date: 08/31/2014
-
-Employee 2:
-Name: Stephen Colbert
-ID: 12346
-Phone: 310-555-5555
-Age: 51
-Gen: M
-Job: Comedian
-Salary: $70,123
-Hire Date: 05/08/2015
-
-Employee 3:
-Name: James Corden
-ID: 87654
-Phone: 703-703-1234
-Age: 37
-Gen: M
-Job: Talk Show Host
-Salary: $900,000
-Hire Date: 12/25/2014
-
-Employee 4:
-Name: Katie Couric
-ID: 77777
-Phone: 203-555-6789
-Age: 58
-Gen: F
-Job: News reporter
-Salary: $500,500
-Hire Date: 03/01/2005
-
-Programmer 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Knows C++: No
-Knows Java: No
-
-Programmer 1 After:
-Name: Sam Software
-ID: 54321
-Phone: 819-123-4567
-Age: 21
-Gen: M
-Job: Programmer
-Salary: $223,000
-Hire Date: 12/24/2011
-Department Number: 5432122
-Supervisor Name: Joe Boss
-Percentage Increase: 4.000000
-Knows C++: Yes
-Knows Java: No
-
-Programmer 2:
-Name: Mary Coder
-ID: 65432
-Phone: 310-555-5555
-Age: 28
-Gen: F
-Job: Programmer
-Salary: $770,123
-Hire Date: 02/08/2010
-Department Number: 6543222
-Supervisor Name: Mary Leader
-Percentage Increase: 7.000000
-Knows C++: Yes
-Knows Java: Yes
-
-Software Architect 1 Before:
-Name: 
-ID: 0
-Phone: 
-Age: 0
-Gen: 
-Job: 
-Salary: 
-Hire Date: 00/00/0000
-Department Number: 0
-Supervisor Name: 
-Percentage Increase: 0.000000
-Years of Experience: 0
-
-Software Architect 1 After:
-Name: Alex Arch
-ID: 88888
-Phone: 819-123-4444
-Age: 31
-Gen: M
-Job: Architect
-Salary: $323,000
-Hire Date: 12/24/2009
-Department Number: 5434222
-Super
+Script done on 2022-06-17 17:29:06-07:00 [COMMAND_EXIT_CODE="0"]
