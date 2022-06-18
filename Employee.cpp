@@ -1,6 +1,15 @@
 #include "Employee.h"
 
-string Employee::str() const
+/*************************************************************************
+ * Str
+ *************************************************************************
+ * This function will return a string containing the information of the
+ * employee.
+ *
+ * Returns: string
+ *************************************************************************/
+
+string Employee::Str() const
 {
 	return "Name: " + name +
 		   "\nID: " + to_string(id) +
@@ -9,11 +18,19 @@ string Employee::str() const
 		   "\nGen: " + gen +
 		   "\nJob: " + job +
 		   "\nSalary: " + salary +
-		   "\nHire Date: " + hireData.str();
+		   "\nHire Date: " + hireData.Str();
 }
+
+/*************************************************************************
+ * <<
+ *************************************************************************
+ * This function overloads the << operator to print the employee.
+ *
+ * Returns: ostream
+ *************************************************************************/
 
 ostream &operator<<(ostream &os, const Employee &employee)
 {
-	cout << employee.str();
+	cout << employee.Str();
 	return os;
 }

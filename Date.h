@@ -14,10 +14,10 @@ public:
 		: month(month), day(day), year(year) {}
 	~Date(){};
 
-	void setMonth(string month) { this->month = month; }
-	void setDay(string day) { this->day = day; }
-	void setYear(string year) { this->year = year; }
+	void SetMonth(string month) { this->month = month; }
+	void SetDay(string day) { this->day = day; }
+	void SetYear(string year) { this->year = year; }
 
-	string str() const;
+	string Str() const;
 	friend ostream &operator<<(ostream &os, const Date &date);
 };

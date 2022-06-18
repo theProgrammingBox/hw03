@@ -15,11 +15,11 @@ public:
 		: Employee(name, id, phone, age, gen, job, salary, hireData), departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), yearsOfExperience(yearsOfExperience){};
 	~SoftwareArchitect(){};
 
-	void setDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }
-	void setSupervisorName(string supervisorName) { this->supervisorName = supervisorName; }
-	void setPercentageIncrease(float percentageIncrease) { this->percentageIncrease = percentageIncrease; }
-	void setYearsOfExperience(int yearsOfExperience) { this->yearsOfExperience = yearsOfExperience; }
+	void SetDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }
+	void SetSupervisorName(string supervisorName) { this->supervisorName = supervisorName; }
+	void SetPercentageIncrease(float percentageIncrease) { this->percentageIncrease = percentageIncrease; }
+	void SetYearsOfExperience(int yearsOfExperience) { this->yearsOfExperience = yearsOfExperience; }
 
-	string str() const;
+	string Str() const;
 	friend ostream &operator<<(ostream &os, const SoftwareArchitect &softwareArchitect);
 };

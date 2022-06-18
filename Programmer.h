@@ -16,12 +16,12 @@ public:
 		: Employee(name, id, phone, age, gen, job, salary, hireData), departmentNumber(departmentNumber), supervisorName(supervisorName), percentageIncrease(percentageIncrease), knowsCpp(knowsCpp), knowsJava(knowsJava){};
 	~Programmer() {}
 
-	void setDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }
-	void setSupervisorName(string supervisorName) { this->supervisorName = supervisorName; }
-	void setPercentageIncrease(float percentageIncrease) { this->percentageIncrease = percentageIncrease; }
-	void setKnowsCpp(bool knowsCpp) { this->knowsCpp = knowsCpp; }
-	void setKnowsJava(bool knowsJava) { this->knowsJava = knowsJava; }
+	void SetDepartmentNumber(int departmentNumber) { this->departmentNumber = departmentNumber; }
+	void SetSupervisorName(string supervisorName) { this->supervisorName = supervisorName; }
+	void SetPercentageIncrease(float percentageIncrease) { this->percentageIncrease = percentageIncrease; }
+	void SetKnowsCpp(bool knowsCpp) { this->knowsCpp = knowsCpp; }
+	void SetKnowsJava(bool knowsJava) { this->knowsJava = knowsJava; }
 
-	string str() const;
+	string Str() const;
 	friend ostream &operator<<(ostream &os, const Programmer &programmer);
 };

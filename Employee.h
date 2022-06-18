@@ -19,15 +19,15 @@ public:
 		: name(name), id(id), phone(phone), age(age), gen(gen), job(job), salary(salary), hireData(hireData){};
 	~Employee(){};
 
-	void setName(string name) { this->name = name; }
-	void setId(int id) { this->id = id; }
-	void setPhone(string phone) { this->phone = phone; }
-	void setAge(int age) { this->age = age; }
-	void setGen(string gen) { this->gen = gen; }
-	void setJob(string job) { this->job = job; }
-	void setSalary(string salary) { this->salary = salary; }
-	void setHire(Date hireData) { this->hireData = hireData; }
+	void SetName(string name) { this->name = name; }
+	void SetId(int id) { this->id = id; }
+	void SetPhone(string phone) { this->phone = phone; }
+	void SetAge(int age) { this->age = age; }
+	void SetGen(string gen) { this->gen = gen; }
+	void SetJob(string job) { this->job = job; }
+	void SetSalary(string salary) { this->salary = salary; }
+	void SetHire(Date hireData) { this->hireData = hireData; }
 
-	string str() const;
+	string Str() const;
 	friend ostream &operator<<(ostream &os, const Employee &employee);
 };
