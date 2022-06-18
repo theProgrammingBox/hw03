@@ -1,26 +1,33 @@
 CC = g++
 FLAGS = -std=c++14 -Wall -g
-OBJS = Date.o Employee.o Programmer.o SoftwareArchitect.o
+OBJS = Main.o Date.o Employee.o Programmer.o SoftwareArchitect.o
+FILES = Main.cpp Header.h Date.h Date.cpp Employee.h Employee.cpp Programmer.h Programmer.cpp SoftwareArchitect.h SoftwareArchitect.cpp
 
-all: hw03
+all: Hw3
 
-hw03: hw03.cpp hw03.o
-	$(CC) $(FLAGS) hw03.cpp -o hw03 $(OBJS)
+Hw3: $(OBJS)
+	$(CC) $(FLAGS) $(OBJS) -o Hw3
 
-hw03.o: Header.h hw03.cpp Date.o
-	$(CC) $(FLAGS) -c hw03.cpp -o hw03.o
+Main.o: Main.cpp Programmer.o SoftwareArchitect.o
+	$(CC) $(FLAGS) -c Main.cpp
 
-Date.o: Date.h Date.cpp Employee.o
-	$(CC) $(FLAGS) -c Date.cpp -o Date.o
+Programmer.o: Programmer.cpp Programmer.h Employee.o
+	$(CC) $(FLAGS) -c Programmer.cpp
 
-Employee.o: Employee.h Employee.cpp Programmer.o SoftwareArchitect.o
-	$(CC) $(FLAGS) -c Employee.cpp -o Employee.o
+SoftwareArchitect.o: SoftwareArchitect.cpp SoftwareArchitect.h Employee.o
+	$(CC) $(FLAGS) -c SoftwareArchitect.cpp
 
-SoftwareArchitect.o: SoftwareArchitect.h SoftwareArchitect.cpp
-	$(CC) $(FLAGS) -c SoftwareArchitect.cpp -o SoftwareArchitect.o
+Employee.o: Employee.cpp Employee.h Date.o
+	$(CC) $(FLAGS) -c Employee.cpp
 
-clean:
-	rm*.0 hw03 hw03.tar
+Date.o: Date.h Date.cpp Header.h
+	$(CC) $(FLAGS) -c Date.cpp
 
 tar:
-	tar cf hw03.tar hw03.scr Makefile Header.h hw03.cpp Date.cpp Date.h Employee.cpp Employee.h Programmer.cpp Programmer.h SoftwareArchitect.cpp SoftwareArchitect.h
+	tar -cf Hw3.tar Hw3.scr Makefile $(FILES)
+
+clean:
+	rm *.o *.tar *.scr Hw3
+
+sudoClean:
+	rm *.o *.scr Hw3

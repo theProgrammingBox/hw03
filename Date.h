@@ -4,20 +4,22 @@
 class Date
 {
 private:
-	string month;
-	string day;
-	string year;
+	int month;
+	int day;
+	int year;
+
+	string MonthToString() const;
+	string DayToString() const;
+	string YearToString() const;
+	friend ostream &operator<<(ostream &os, const Date &date);
 
 public:
-	Date() : month("00"), day("00"), year("0000") {}
-	Date(string month, string day, string year)
+	Date() : month(-1), day(-1), year(-1) {}
+	Date(int month, int day, int year)
 		: month(month), day(day), year(year) {}
 	~Date(){};
 
-	void SetMonth(string month) { this->month = month; }
-	void SetDay(string day) { this->day = day; }
-	void SetYear(string year) { this->year = year; }
-
-	string Str() const;
-	friend ostream &operator<<(ostream &os, const Date &date);
+	void SetMonth(int month) { this->month = month; }
+	void SetDay(int day) { this->day = day; }
+	void SetYear(int year) { this->year = year; }
 };
