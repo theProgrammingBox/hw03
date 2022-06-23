@@ -23,8 +23,8 @@
 *   None:	No user input is required.
 *
 * OUTPUT:
-*   employee1:	The employee object's initial information.
-*   employee2:	The employee object's new information.
+*   employee1:		The employee object's initial information.
+*   employee2:		The employee object's new information.
 *   programmer1:	The programmer object's initial information.
 *   programmer2:	The programmer object's new information.
 *   softwareArchitect1:	The software architect object's initial information.
