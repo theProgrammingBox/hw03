@@ -9,6 +9,28 @@
 #include "Programmer.h"
 #include "SoftwareArchitect.h"
 
+/**********************************************************
+*
+* Class Interfaces, Inheritance & Composition
+*_________________________________________________________
+* This program accepts creates an employee object, a
+* programmer object, and a software architect object. For
+* each object, the program will display the objects's
+* initial information, then change the objects's data
+* and display the objects's new information.
+*_________________________________________________________
+* INPUT:
+*   None:	No user input is required.
+*
+* OUTPUT:
+*   employee1:	The employee object's initial information.
+*   employee2:	The employee object's new information.
+*   programmer1:	The programmer object's initial information.
+*   programmer2:	The programmer object's new information.
+*   softwareArchitect1:	The software architect object's initial information.
+*   softwareArchitect2:	The software architect object's new information.
+***********************************************************/
+
 int main()
 {
 	Employee employee1;

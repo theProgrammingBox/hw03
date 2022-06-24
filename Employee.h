@@ -23,10 +23,15 @@ private:
 	friend ostream &operator<<(ostream &os, const Employee &employee);
 
 public:
+
+	/*** CONSTRUCTOR & DESTRUCTOR ***/
+
 	Employee() : name(""), id(-1), phone(0), age(-1), gen(""), job(""), salary(0), hireDate(){};
 	Employee(string name, int id, long unsigned int phone, int age, string gen, string job, long unsigned int salary, int month, int day, int year)
 		: name(name), id(id), phone(phone), age(age), gen(gen), job(job), salary(salary), hireDate(month, day, year){};
 	~Employee(){};
+
+	/***  MUTATORS ***/
 
 	void SetName(string name) { this->name = name; }
 	void SetId(int id) { this->id = id; }
@@ -36,4 +41,6 @@ public:
 	void SetJob(string job) { this->job = job; }
 	void SetSalary(long unsigned int salary) { this->salary = salary; }
 	void SetHire(int month, int day, int year) { this->hireDate.SetMonth(month); this->hireDate.SetDay(day); this->hireDate.SetYear(year); }
+
+	/***  ACCESSORS ***/
 };

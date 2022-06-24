@@ -1,11 +1,15 @@
 #include "Employee.h"
 
 /*************************************************************************
- * NameToString
- *************************************************************************
- * This function returns the name of the employee as a string.
- *
- * Returns: string
+ * Method NameToString: Class Employee
+ * ----------------------------------------------------------------------
+ * This function will convert the name to a string.
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the name.
  *************************************************************************/
 
 string Employee::NameToString() const
@@ -18,11 +22,15 @@ string Employee::NameToString() const
 }
 
 /*************************************************************************
- * IDToString
- *************************************************************************
+ * Method IDToString: Class Employee
+ * ----------------------------------------------------------------------
  * This function will convert the ID to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the ID.
  *************************************************************************/
 
 string Employee::IDToString() const
@@ -35,11 +43,15 @@ string Employee::IDToString() const
 }
 
 /*************************************************************************
- * PhoneToString
- *************************************************************************
- * This function will convert the phone to a string.
- *
- * Returns: string
+ * Method PhoneToString: Class Employee
+ * ----------------------------------------------------------------------
+ * This function will convert the phone number to a string.
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the phone number.
  *************************************************************************/
 
 string Employee::PhoneToString() const
@@ -52,11 +64,15 @@ string Employee::PhoneToString() const
 }
 
 /*************************************************************************
- * AgeToString
- *************************************************************************
+ * Method AgeToString: Class Employee
+ * ----------------------------------------------------------------------
  * This function will convert the age to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the age.
  *************************************************************************/
 
 string Employee::AgeToString() const
@@ -69,11 +85,15 @@ string Employee::AgeToString() const
 }
 
 /*************************************************************************
- * GenToString
- *************************************************************************
- * This function will convert the gen to a string.
- *
- * Returns: string
+ * Method GenToString: Class Employee
+ * ----------------------------------------------------------------------
+ * This function will convert the Gen to a string.
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the Gen.
  *************************************************************************/
 
 string Employee::GenToString() const
@@ -86,12 +106,16 @@ string Employee::GenToString() const
 }
 
 /*************************************************************************
- * JobToString
- *************************************************************************
+ * Method JobToString: Class Employee
+ * ----------------------------------------------------------------------
  * This function will convert the job to a string.
- *
- * Returns: string
- *************************************************************************/
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the job.
+ **************************************************************************/
 
 string Employee::JobToString() const
 {
@@ -103,11 +127,15 @@ string Employee::JobToString() const
 }
 
 /*************************************************************************
- * SalaryToString
- *************************************************************************
+ * Method SalaryToString: Class Employee
+ * ----------------------------------------------------------------------
  * This function will convert the salary to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the salary.
  *************************************************************************/
 
 string Employee::SalaryToString() const
@@ -133,11 +161,15 @@ string Employee::SalaryToString() const
 }
 
 /*************************************************************************
- * << operator
- *************************************************************************
+ * Method operator <<: Class Employee
+ * ----------------------------------------------------------------------
  * This function overloads the << operator to print the employee.
- *
- * Returns: ostream
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		An ostream object and an Employee object
+ * 
+ * POST-CONDITIONS
+ * 		returns an ostream object that contains the formatted date.
  *************************************************************************/
 
 ostream &operator<<(ostream &os, const Employee &employee)

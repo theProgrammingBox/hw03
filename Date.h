@@ -4,7 +4,7 @@
 class Date
 {
 private:
-	int month;
+	int month;	// 
 	int day;
 	int year;
 
@@ -14,12 +14,19 @@ private:
 	friend ostream &operator<<(ostream &os, const Date &date);
 
 public:
+
+	/*** CONSTRUCTOR & DESTRUCTOR ***/
+
 	Date() : month(-1), day(-1), year(-1) {}
 	Date(int month, int day, int year)
 		: month(month), day(day), year(year) {}
 	~Date(){};
 
+	/***  MUTATORS ***/
+
 	void SetMonth(int month) { this->month = month; }
 	void SetDay(int day) { this->day = day; }
 	void SetYear(int year) { this->year = year; }
+
+	/***  ACCESSORS ***/
 };

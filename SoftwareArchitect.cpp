@@ -1,11 +1,15 @@
 #include "SoftwareArchitect.h"
 
 /*************************************************************************
- * DepartmentNumberToString
- *************************************************************************
+ * Method DepartmentNumberToString: Class SoftwareArchitect
+ * ----------------------------------------------------------------------
  * This function will convert the department number to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the department number.
  *************************************************************************/
 
 string SoftwareArchitect::DepartmentNumberToString() const
@@ -18,11 +22,15 @@ string SoftwareArchitect::DepartmentNumberToString() const
 }
 
 /*************************************************************************
- * SupervisorNameToString
- *************************************************************************
+ * Method SupervisorNameToString: Class SoftwareArchitect
+ * ----------------------------------------------------------------------
  * This function will convert the supervisor name to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the supervisor name.
  *************************************************************************/
 
 string SoftwareArchitect::SupervisorNameToString() const
@@ -35,11 +43,15 @@ string SoftwareArchitect::SupervisorNameToString() const
 }
 
 /*************************************************************************
- * PercentageIncreaseToString
- *************************************************************************
+ * Method PercentageIncreaseToString: Class SoftwareArchitect
+ * ----------------------------------------------------------------------
  * This function will convert the percentage increase to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the percentage increase.
  *************************************************************************/
 
 string SoftwareArchitect::PercentageIncreaseToString() const
@@ -52,11 +64,15 @@ string SoftwareArchitect::PercentageIncreaseToString() const
 }
 
 /*************************************************************************
- * YearsOfExperienceToString
- *************************************************************************
+ * Method YearsOfExperienceToString: Class SoftwareArchitect
+ * ----------------------------------------------------------------------
  * This function will convert the years of experience to a string.
- *
- * Returns: string
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the years of experience.
  *************************************************************************/
 
 string SoftwareArchitect::YearsOfExperienceToString() const
@@ -68,12 +84,17 @@ string SoftwareArchitect::YearsOfExperienceToString() const
 	return to_string(yearsOfExperience);
 }
 
+
 /*************************************************************************
- * << operator
- *************************************************************************
- * This function overloads the << operator to print the software architect.
- *
- * Returns: ostream
+ * Method operator <<: Class SoftwareArchitect
+ * ----------------------------------------------------------------------
+ * This function will output the SoftwareArchitect object to the console.
+ * ----------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 		none
+ * 
+ * POST-CONDITIONS
+ * 		returns a string of the SoftwareArchitect object.
  *************************************************************************/
 
 ostream &operator<<(ostream &os, const SoftwareArchitect &softwareArchitect)
